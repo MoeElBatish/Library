@@ -1,0 +1,29 @@
+html {
+    background-color: #dededef3;
+}
+body {
+    display: flex;
+    flex-direction: column;
+}
+header {
+    padding-top: 4rem;
+    text-align: center;
+}
+.new {
+    background-color: white;
+    border-radius: 4rem;
+}
+button {
+    border-style: none;
+    margin: 1rem;
+    font-size: 18px;
+    padding: 0.6rem 2rem 0.6rem 2rem;
+}
+.filter button {
+    background-color: #dededef3;
+    border-bottom: 5px solid black;
+
+}
+.filter {
+    text-align: center;
+}
