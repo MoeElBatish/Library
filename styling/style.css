@@ -14,16 +14,20 @@ header {
     border-radius: 4rem;
 }
 button {
+    transition: 0.4s;
     border-style: none;
-    margin: 1rem;
+    margin: 1.43rem;
     font-size: 18px;
     padding: 0.6rem 2rem 0.6rem 2rem;
+}
+.filter {
+    text-align: center;
 }
 .filter button {
     background-color: #dededef3;
     border-bottom: 5px solid black;
-
 }
-.filter {
-    text-align: center;
+button:hover {
+    background-color:#BC647B;
+    color: white;
 }
