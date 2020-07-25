@@ -13,6 +13,19 @@
             New Book
         </button>
     </header>
+    <div class="modal-bg">
+        <div class="modal">
+            <h1>New Book</h1>
+            <label for="title">title</label>
+            <input type="text" name="title">
+            <label for="author">author</label>
+            <input type="text" name="author">
+            <label for="pages">pages</label>
+            <input type="number" name="pages">
+            <label for="read-status">Check if read</label>
+            <input type="checkbox" id="read-status" value="check">
+        </div>
+    </div>
     <div class="filter">
         <button id="all">
             View all
@@ -24,6 +37,45 @@
             Not Read
         </button>
     </div>
+    <div class="library-container">
+        <div class="bookshelf" id="storage">
+            <div class="book">
+            <h2>
+                Title:
+            </h2>
+            <h2>
+                Author:
+            </h2>
+            <h2>
+                Pages:
+            </h2>
+            <h2 class="status">
+                Read
+            </h2>
+            <h2 class="delete">
+                Delete
+            </h2>
+            </div>
+            <div class="book">
+                <h2>
+                    Title:
+                </h2>
+                <h2>
+                    Author:
+                </h2>
+                <h2>
+                    Pages:
+                </h2>
+                <h2 class="status">
+                    Read
+                </h2>
+                <h2 class="delete">
+                    Delete
+                </h2>
+                </div>
+        </div>
+    </div>
+    <script src="script/main.js"></script>
     
 </body>
 </html>
