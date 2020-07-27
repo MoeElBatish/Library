@@ -9,7 +9,7 @@
 <body>
     <header>
         <h1>My Library</h1>
-        <button class="new">
+        <button class="modal-new">
             New Book
         </button>
     </header>
@@ -17,13 +17,17 @@
         <div class="modal">
             <h1>New Book</h1>
             <label for="title">title</label>
-            <input type="text" name="title">
+            <input type="text" id="title">
             <label for="author">author</label>
-            <input type="text" name="author">
+            <input type="text" id="author">
             <label for="pages">pages</label>
-            <input type="number" name="pages">
+            <input type="number" id="pages">
             <label for="read-status">Check if read</label>
             <input type="checkbox" id="read-status" value="check">
+            <div class="modal-buttons">
+            <button class="add-new">Add Book</button>
+            <button class="close">Cancel</button>
+            </div>
         </div>
     </div>
     <div class="filter">
@@ -39,40 +43,6 @@
     </div>
     <div class="library-container">
         <div class="bookshelf" id="storage">
-            <div class="book">
-            <h2>
-                Title:
-            </h2>
-            <h2>
-                Author:
-            </h2>
-            <h2>
-                Pages:
-            </h2>
-            <h2 class="status">
-                Read
-            </h2>
-            <h2 class="delete">
-                Delete
-            </h2>
-            </div>
-            <div class="book">
-                <h2>
-                    Title:
-                </h2>
-                <h2>
-                    Author:
-                </h2>
-                <h2>
-                    Pages:
-                </h2>
-                <h2 class="status">
-                    Read
-                </h2>
-                <h2 class="delete">
-                    Delete
-                </h2>
-                </div>
         </div>
     </div>
     <script src="script/main.js"></script>
